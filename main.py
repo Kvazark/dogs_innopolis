@@ -16,7 +16,7 @@ classes = []
 input_dir = "D:/Projects/PyCharmProjects/dogs/annotations_loaded"
 
 
-files = glob.glob(os.path.join(input_dir, '*.xml'))
+files = glob.glob(os.path.join(input_dir, '*'))
 for fil in files:
     basename = os.path.basename(fil) #road0.xml
     filename = os.path.splitext(basename)[0] #road0

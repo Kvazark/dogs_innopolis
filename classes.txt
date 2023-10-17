@@ -1,1 +1,1 @@
-[]
+["beagle", "Gordon_setter", "Brittany_spaniel", "clumber", "schipperke"]
